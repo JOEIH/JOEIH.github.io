@@ -128,7 +128,7 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: true
+    enabled: 
     env: # [development | production]
 
 pwa:
