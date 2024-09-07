@@ -16,7 +16,7 @@ tags: [github, git]
 git rm --cached - r 파일/폴더 이름
 ```
 node_modules를 삭제하고 싶으면 `git rm --cached -r node_modules` 입력. <br>
-여기서 `--cached`를 붙이면 파일이 로컬 저장소에는 그대로 있는 상태로 원격 저장소에서만 삭제된다. <br>
+여기서 `--cached`를 붙이면 파일이 <b>로컬 저장소에는 그대로 있는 상태로 원격 저장소에서만 삭제</b>된다. <br>
 `-r` 은 recursive라는 뜻으로 파일/폴더가 삭제되면 하위에 있는 파일, 서브디렉토리도 모두 삭제된다. <br>
 
 ## 2. .gitignore에 반영 후 업로드
