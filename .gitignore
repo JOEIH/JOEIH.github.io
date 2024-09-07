@@ -22,3 +22,6 @@ package-lock.json
 # assets/js/dist
 
 .DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
