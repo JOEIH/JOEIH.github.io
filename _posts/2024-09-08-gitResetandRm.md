@@ -31,9 +31,9 @@ git push
 
 
 
-
+<br />
 <hr />
-
+<br />
 
 
 
@@ -41,16 +41,16 @@ git push
 처음에는 node_modules를 원격에서 없애려고 `git reset`을 실행했다(<b>절대안돼...</b>)
 
 ```plaintext
-git reset --hard '커밋 해쉬값'
+git reset --hard '커밋 해시값'
 ```
 이 명령어를 실행하면 원하는 커밋 위치로 돌아갈 수 있다. 대신 그 이후에 새롭게 작성한 파일 모두 날아간다...<br>
 이렇게 날린 파일은 그래도 복구가 가능하다
 
 ```plaintext
 git reflog 
-git reset --hard '커밋 해쉬값'
+git reset --hard '커밋 해시값'
 ```
-먼저 로컬 저장소의 HEAD 업데이트 기록을 보기 위해 `git reflog` 명령어를 실행하고, `reset` 명령어로 날려버린 해쉬값을 확인한 후 다시 거기로 돌아가면 날린 파일이 모두 복구된다!<br>
+먼저 로컬 저장소의 HEAD 업데이트 기록을 보기 위해 `git reflog` 명령어를 실행하고, `reset` 명령어로 날려버린 해시값을 확인한 후 다시 거기로 돌아가면 날린 파일이 모두 복구된다!<br>
 
 
 
